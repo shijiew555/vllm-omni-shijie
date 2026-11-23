@@ -1,0 +1,1 @@
+[Bugfix][CI] Keep MiniMax-H3 CPU and int8 CUDA tests independent of SM120 hosts

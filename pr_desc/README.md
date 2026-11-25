@@ -12,6 +12,8 @@ The body is not in the link, because the longest body would push the URL past Gi
 
 None of the three needs a separate issue.
 
+Opened on 2026-11-24: T1 #11124, T2 #11125, T3 #11126.
+
 ## Before posting
 
 The bodies report results measured on upstream/main `b576ed001` with vLLM 0.33.0.

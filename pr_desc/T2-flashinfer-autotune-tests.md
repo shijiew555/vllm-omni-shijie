@@ -2,6 +2,7 @@
 
 | Field | Value |
 | --- | --- |
+| Opened | [#11125](https://github.com/vllm-project/vllm-omni/pull/11125), 2026-11-24 |
 | Type | Pull request |
 | Title | `[Bugfix][CI/Build] Keep diffusion CPU unit tests host-independent on SM100+ GPUs` |
 | Open the PR | [Open PR in one click](https://github.com/vllm-project/vllm-omni/compare/main...shijiew555:vllm-omni-shijie:fix-sm100-flashinfer-autotune-tests?quick_pull=1&title=%5BBugfix%5D%5BCI%2FBuild%5D%20Keep%20diffusion%20CPU%20unit%20tests%20host-independent%20on%20SM100%2B%20GPUs) |

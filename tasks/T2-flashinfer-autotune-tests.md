@@ -2,6 +2,7 @@
 
 | Field | Value |
 | --- | --- |
+| Opened | [#11125](https://github.com/vllm-project/vllm-omni/pull/11125), 2026-11-24 |
 | Status | Branch ready, results need a rerun on vLLM 0.34 |
 | Branch | `fix-sm100-flashinfer-autotune-tests` (1 commit), base upstream/main `9b753874d` |
 | Worktree | `.claude/worktrees/flashinfer-autotune-tests` |

@@ -2,6 +2,7 @@
 
 | Field | Value |
 | --- | --- |
+| Opened | [#11126](https://github.com/vllm-project/vllm-omni/pull/11126), 2026-11-24 |
 | Type | Pull request |
 | Title | `[Model] Validate Z-Image-Turbo runtime LoRA with online FP8 quantization` |
 | Open the PR | [Open PR in one click](https://github.com/vllm-project/vllm-omni/compare/main...shijiew555:vllm-omni-shijie:lora-fp8-z-image-turbo?quick_pull=1&title=%5BModel%5D%20Validate%20Z-Image-Turbo%20runtime%20LoRA%20with%20online%20FP8%20quantization) |

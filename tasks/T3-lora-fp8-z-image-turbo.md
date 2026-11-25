@@ -2,6 +2,7 @@
 
 | Field | Value |
 | --- | --- |
+| Opened | [#11126](https://github.com/vllm-project/vllm-omni/pull/11126), 2026-11-24 |
 | Status | Branch ready, results need a rerun on vLLM 0.34 |
 | Branch | `lora-fp8-z-image-turbo` (2 commits), base upstream/main `9b753874d` |
 | Worktree | `.claude/worktrees/lora-fp8-z-image-turbo` |

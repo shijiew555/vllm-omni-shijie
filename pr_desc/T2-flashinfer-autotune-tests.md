@@ -58,8 +58,6 @@ Two host defaults cause the failures:
 A fix in the worker (for example, no autotune without `od_config`) would change product code only to support test doubles.
 Real workers always have `od_config` and `rank`, so the tests are the right place for the fix.
 
-The change also fixes two existing mypy errors in `tests/diffusion/test_diffusion_step_pipeline.py` (an override parameter name and an undeclared `device` attribute), because the local `mypy-3.10` commit hook fails on the touched file without them.
-
 Whether SM120 consumer GPUs should auto-enable FlashInfer autotune is a separate product question for the #9998 owners.
 This PR does not change it.
 

@@ -52,3 +52,7 @@ Test-only, 4 files, +24 lines.
 
 - Production int8 and ConvRot could fail early with a clear error on SM100+.
 - Report the `CutlassInt8ScaledMMLinearKernel.is_supported` selection bug to vLLM.
+
+## PR activity
+
+- 2026-11-24: posted the self-review requested by vllm-omni-review-bot. The Codex review did not run (repository usage limit), so it has no findings.

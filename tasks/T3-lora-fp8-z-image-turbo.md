@@ -46,3 +46,7 @@ Clean.
 1. Rerun the FP8 test on vLLM 0.34, under `systemd-run --user --scope -p MemoryMax=20G -p MemorySwapMax=0`.
 2. Update the results, SHAs and versions in the PR body.
 3. Never run a BF16 or offload Z-Image-Turbo job on this machine.
+
+## PR activity
+
+- 2026-11-24: posted the self-review requested by vllm-omni-review-bot. The Codex review did not run (repository usage limit), so it has no findings.

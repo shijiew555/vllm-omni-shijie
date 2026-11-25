@@ -25,7 +25,7 @@ Test-only, 4 files, +26/-5.
 
 - The bare-worker helpers set `_flashinfer_autotune_on = False`, which is what `load_model()` sets when autotune is off. #10346 fixed the same problem for the weight-sharing test.
 - The MammothModa2 test resolves backend names from the registry, so it checks only the config-to-layer routing.
-- Fixes 2 old mypy errors in `test_diffusion_step_pipeline.py`, because the local commit hook fails without them.
+- The 2 old mypy fixes in `test_diffusion_step_pipeline.py` dropped out in the rebase: upstream already fixed them. The PR body was corrected on 2026-11-24.
 - A product-side fix was rejected: real workers always have `od_config` and `rank`.
 
 ## Results (upstream/main `b576ed001`, vLLM 0.33.0, RTX 5080)
@@ -47,3 +47,7 @@ Clean.
 ## Follow-ups (not in this PR)
 
 - Whether SM120 consumer GPUs should turn on FlashInfer autotune by default is a question for the #9998 owners.
+
+## PR activity
+
+- 2026-11-24: posted the self-review requested by vllm-omni-review-bot. The Codex review did not run (repository usage limit), so it has no findings.

@@ -1,3 +1,20 @@
+# T2: [Bugfix][CI/Build] Keep diffusion CPU unit tests host-independent on SM100+ GPUs
+
+| Field | Value |
+| --- | --- |
+| Type | Pull request |
+| Title | `[Bugfix][CI/Build] Keep diffusion CPU unit tests host-independent on SM100+ GPUs` |
+| Open the PR | [Open PR in one click](https://github.com/vllm-project/vllm-omni/compare/main...shijiew555:vllm-omni-shijie:fix-sm100-flashinfer-autotune-tests?quick_pull=1&title=%5BBugfix%5D%5BCI%2FBuild%5D%20Keep%20diffusion%20CPU%20unit%20tests%20host-independent%20on%20SM100%2B%20GPUs) |
+| Related RFC | None. Small test-only bug fix, no RFC or issue needed. Related: #9998 (enabled FlashInfer autotune by default on SM100+), #10346 (same fix for the weight-sharing test). |
+| Separate issue needed | No |
+| Branch | `shijiew555:fix-sm100-flashinfer-autotune-tests` at `8bb727a72`, base `vllm-project/vllm-omni:main` |
+
+The link opens the PR form with the title filled in.
+Paste everything below the line into the description box.
+
+<!-- PR BODY START -->
+---
+
 ## Contributor intent (required human answers)
 
 ### 1. What outcome do you want to achieve?

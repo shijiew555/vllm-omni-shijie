@@ -1,3 +1,20 @@
+# T1: [Bugfix][CI] Keep MiniMax-H3 CPU and int8 CUDA tests independent of SM120 hosts
+
+| Field | Value |
+| --- | --- |
+| Type | Pull request |
+| Title | `[Bugfix][CI] Keep MiniMax-H3 CPU and int8 CUDA tests independent of SM120 hosts` |
+| Open the PR | [Open PR in one click](https://github.com/vllm-project/vllm-omni/compare/main...shijiew555:vllm-omni-shijie:fix-sm120-host-tests?quick_pull=1&title=%5BBugfix%5D%5BCI%5D%20Keep%20MiniMax-H3%20CPU%20and%20int8%20CUDA%20tests%20independent%20of%20SM120%20hosts) |
+| Related RFC | None. Small test-only bug fix, no RFC or issue needed. |
+| Separate issue needed | No |
+| Branch | `shijiew555:fix-sm120-host-tests` at `76aea933c`, base `vllm-project/vllm-omni:main` |
+
+The link opens the PR form with the title filled in.
+Paste everything below the line into the description box.
+
+<!-- PR BODY START -->
+---
+
 ## Contributor intent (required human answers)
 
 ### 1. What outcome do you want to achieve?

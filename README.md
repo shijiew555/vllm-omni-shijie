@@ -1,17 +1,26 @@
 # agent-coord
 
-This branch holds coordination material for contributions to `vllm-project/vllm-omni`.
-It has no shared history with the code branches and is never merged into them.
+Coordination and work records for contributions from this fork to `vllm-project/vllm-omni`.
+This branch has no shared history with the code branches and is never merged into them.
 
 ## Layout
 
-| Path | Contents |
+| Folder | Contents |
 | --- | --- |
-| `pr_desc/` | PR and issue drafts: one folder per task, with `title.txt` and `body.md` |
+| `explorations/` | Findings and leads that may become PR work. Not yet approved. |
+| `tasks/` | Tasks confirmed to become a PR: scope, branch, status, results, open items. |
+| `agents/` | The subagent definitions used for this work (Claude Code format). |
+| `pr_desc/` | Ready-to-post deliverables: one file per PR or issue, with the title, a one-click link, the related RFC, and the exact body. |
 
-More folders will hold exploration findings and task progress.
+## Flow
+
+1. A lead starts in `explorations/`.
+2. When the user approves it, it gets a file in `tasks/` and a branch and worktree.
+3. When the branch is reviewed, its post goes into `pr_desc/`.
+4. Nothing is posted to GitHub until the user approves it.
 
 ## Rules
 
-- Nothing here is posted to GitHub until the user approves it.
-- A task's `body.md` is the exact text to post. Status and notes go in `pr_desc/README.md`, not in the body.
+- In a `pr_desc/` file, the text after the `PR BODY START` marker is the exact text to post. Notes go in the header table or in `tasks/`.
+- Never put private information (for example employer or startup details) in `pr_desc/`.
+- Never use the em dash. Use a plain dash.

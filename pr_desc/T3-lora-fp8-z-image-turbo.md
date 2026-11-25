@@ -1,3 +1,20 @@
+# T3: [Model] Validate Z-Image-Turbo runtime LoRA with online FP8 quantization
+
+| Field | Value |
+| --- | --- |
+| Type | Pull request |
+| Title | `[Model] Validate Z-Image-Turbo runtime LoRA with online FP8 quantization` |
+| Open the PR | [Open PR in one click](https://github.com/vllm-project/vllm-omni/compare/main...shijiew555:vllm-omni-shijie:lora-fp8-z-image-turbo?quick_pull=1&title=%5BModel%5D%20Validate%20Z-Image-Turbo%20runtime%20LoRA%20with%20online%20FP8%20quantization) |
+| Related RFC | [#1217 RFC: Continuous Diffusion Model Acceleration Support](https://github.com/vllm-project/vllm-omni/issues/1217), Feature x Feature table, cell LoRA Inference x FP8 Quant. Claim: [comment 6891432700](https://github.com/vllm-project/vllm-omni/issues/1217#issuecomment-6891432700) (2026-11-15, no reply yet). |
+| Separate issue needed | No |
+| Branch | `shijiew555:lora-fp8-z-image-turbo` at `f190ff50e`, base `vllm-project/vllm-omni:main` |
+
+The link opens the PR form with the title filled in.
+Paste everything below the line into the description box.
+
+<!-- PR BODY START -->
+---
+
 Runtime PEFT LoRA with online FP8 quantization is marked unverified (❓) in the diffusion feature compatibility matrix.
 This PR adds an exact-comparison CUDA test for Z-Image-Turbo with `quantization="fp8"` and documents the validated configuration.
 
